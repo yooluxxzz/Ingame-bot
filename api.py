@@ -30,4 +30,4 @@ async def get_punishment(username: str):  # <-- now using query param
 
 @app.get("/")
 async def root():
-    return {"message": "Punishment API is live!"}
+    return {"message": "Punishment API is active!"}
